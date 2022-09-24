@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 int main(){
-    for(;;){
-        int cases, max, min, sum, avg,i,j,count;
-        sum=0;
-        scanf("%d",&cases);//輸入要跑幾組迴圈
-        for(i=1;i<=cases;i++){
-            printf("Case%d:\n",i);
-            
-            scanf("%d",&j);
-            sum += j;
-            printf("%d",sum);
+    int i;
+    for(i=1;;i++){
+        int cases,loop,x,sum=0;
+        scanf("%d",&cases);
+        if(cases==0){
+            break;
         }
-        // printf("avg:%.2f",(double) sum / count);
+        printf("Case %d:\n",i);
+        for(loop=1;loop<=cases;loop++){
+            scanf("%d",&x);
+            sum+=x;
+        }
+        printf("sum=%d\n",sum);
     }
-    
-    return 0;
 }
