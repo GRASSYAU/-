@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "0924.C": "cpp"
+        "*.c": "c",
+        "0924.C": "cpp",
+        "0926.C": "cpp"
     }
 }

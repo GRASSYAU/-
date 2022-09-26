@@ -5,7 +5,7 @@ public class A110280125_ex0926{
         double  celsius;
         Scanner sc = new Scanner(System.in);
         System.out.printf("Input fahrenheit: ");
-        double fahrenheit =sc.nextDouble();2
+        double fahrenheit =sc.nextDouble();
         celsius = (fahrenheit-32)*5/9; 
         System.out.printf("Enter the degree F: %.1f\n",celsius);
         if(celsius>=35){
