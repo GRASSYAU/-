@@ -1,35 +1,17 @@
 #include <stdio.h>
+
 int main()
 {
-    int count;
-    int memory, max, min, sum = 0;
-    double avg;
-    scanf("%d",&count);
-    for(int cases=1;cases<=count;cases++)
-    {   
-        scanf("%d",&memory);
-        int array[memory];
-        for (int i = 0; i < memory; i++)
-        {
-            scanf("%d", &array[i]);
+    int cases,x,i;
+    scanf("%d",&cases);
+    for(int loop=1;loop<=cases;loop++){
+        printf("Case #%d:\n", loop);
+        scanf("%d",&x);
+        
+        for(i=9;i>=1;i--){
+            printf("%d * %d = %d\n", x, i, x *i );
         }
-        max = array[0];
-        min = array[0];
-        for (int i = 0; i < memory; i++)
-        {
-            if (max < array[i])
-            {
-                max = array[i];
-            }else if (min > array[i])
-            {
-                min = array[i];
-            }
-            sum = sum + array[i];
-        }
-        avg = memory / 1.0;
-        avg = sum / avg;
-        printf("Case %d:\n", cases);
-        printf("max=%d\nmin=%d\nsum=%d\navg=%.2f\n", max, min, sum, avg);
-        sum = 0;
+        
     }
+    return 0;
 }
