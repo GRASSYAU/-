@@ -1,4 +1,4 @@
-3
-15
-1
-5
+#include <stdio.h>
+main() {
+  printf("Happy New Year, 2018!\n");
+}
