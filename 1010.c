@@ -6,7 +6,7 @@ int main(){
     while ((a=getchar()) != EOF){
         characters++;
         if(count==0){
-            printf("%03d:",line+1);
+            printf("%03d: ",line+1);
             count++;
         }
         putchar(a);
