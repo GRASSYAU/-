@@ -21,5 +21,22 @@ int main(){
             digits++;
         }
     }
-    printf("%d lines, %d characters, %d letters, %d digits",line,characters,letters,digits);
+
+    printf("%d line",line);
+    if(line>1){
+        printf("s");
+    }
+    printf(", %d character",characters);
+    if(letters>1){
+        printf("s");
+    }
+    printf(", %d letter",letters);
+    if(characters>1){
+        printf("s");
+    }
+    printf(", %d digit",digits);
+    if(digits>1){
+        printf("s");
+    }
+    printf("\n");
 }
