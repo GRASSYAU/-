@@ -1,4 +1,2 @@
-#include <stdio.h>
-main() {
-  printf("Happy New Year, 2018!\n");
-}
+"THE ART OF COMPUTER PROGRAMMING, VOLUME I: FUNDAMENTAL ALGORITHMS"
+was written by Donald Knuth and published in 1968.
