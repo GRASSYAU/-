@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class A10 {
+public class Ex1017 {
     public static void main(String[] argv){
         System.out.print("             9X9 TABLE\n");
         System.out.print("+-----------------------------------+\n");
