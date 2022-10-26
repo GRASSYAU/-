@@ -5,7 +5,7 @@ int main(){
     scanf("%d\n",&cases);
     count=0;
     while(cases--){//Case寫死的通用版本
-        printf("Case %d: ",++count);
+        printf("Case %d: \"",++count);
         digit=letter=0;
         while((a=getchar()) != '\n'){
             putchar(a);
@@ -21,16 +21,17 @@ int main(){
         if(absolute<0){
             absolute=-absolute;
         }
+        if(1<=absolute&&absolute<=100){
+            printf("\" is nice due to");
+        }else{
+            printf("\" is not nice due to");
+        }
         if(last==2){
             digit-last;
-            printf("=|%d-%d|=|%d|=%d ==> ",digit,letter,digit-letter,absolute);
+            printf(" |%d-%d|=|%d|=%d\n",digit,letter,digit-letter,absolute);
         }else{
-            printf("=|%d-%d|=|%d|=%d ==> ",letter,digit,letter-digit,absolute);
+            printf(" |%d-%d|=|%d|=%d\n",letter,digit,letter-digit,absolute);
         }
-        if(1<=absolute&&absolute<=100){
-            printf("nice\n");
-        }else{
-            printf("not nice\n");
-        }
+        
     }
 }
