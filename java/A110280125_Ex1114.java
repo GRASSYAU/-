@@ -11,7 +11,7 @@ class Student{
 	}
 }
 	
-public class A110280125{
+public class A110280125_Ex1114{
 	public static void main(String args[]){
 		Student std1=new Student();
 		std1.sid="A110280125";
