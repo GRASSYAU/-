@@ -1,4 +1,4 @@
-class triangle {
+class triangle{
     int a, b, c;
 
     boolean check() {
@@ -8,16 +8,13 @@ class triangle {
             return false;
         return true;
     }
-
     double getArea() {
         double ss = getPerimeter() / 2;
         return Math.sqrt(ss * (ss - a) * (ss - b) * (ss - c));
     }
-
     int getPerimeter() {
         return a + b + c;
     }
-
     void show() {
         System.out.printf("Three edges of the triangle are %d, %d, %d\n", a, b, c);
         if (check())
@@ -27,7 +24,7 @@ class triangle {
     }
 }
 
-public class B {
+public class Test1121 {
     public static void main(String args[]) {
         triangle tr1 = new triangle();
         tr1.a = 5;

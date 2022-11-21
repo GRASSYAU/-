@@ -1,4 +1,4 @@
-public class B {
+public class Test1031 {
     public static void main(String[] argv) {
         int[][] ary = {
                 { 89,76,45,91,83,66,51,75,86,80,47,90,43,55,83,72,90,44,66,91 },//a
