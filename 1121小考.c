@@ -25,7 +25,6 @@ int binary_cal(int n){
 }  
 void function(){
     int i;
-    //printf("print answer right here!\n");
     int maxascii;
     int maxcode;
     for(;;){
