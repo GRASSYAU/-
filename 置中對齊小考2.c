@@ -22,7 +22,7 @@ void rightJustify(char string[], int width)
 int main(const int argc, const char *argv[])
 {
 
-    // char str[MAXLINE][MAXLEN] ;
+    char str[MAXLINE][MAXLEN] ;
     // 起 --
     int i, k, kk;
     int n;
