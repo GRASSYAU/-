@@ -8,6 +8,7 @@
         "stdio.h": "c",
         "1024.C": "cpp",
         "1026.C": "cpp",
-        "limits": "c"
+        "limits": "c",
+        "0925.C": "cpp"
     }
 }
